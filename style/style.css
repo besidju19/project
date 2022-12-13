@@ -24,10 +24,11 @@ a{
     color:#f9faf8;
 }
 button{
+    margin-top:10px;
     color:#f9faf8;
-    border-radius: 15px;
+    border-radius: 7px;
     background-color:#3882f6;
-    padding:4px 12px;
+    padding:4px 20px;
 }
 .header{
     background-color: #1f2937;;
@@ -46,6 +47,7 @@ button{
     display:flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 80px ;
 }
 .contentone{
     color:#f9faf8;
@@ -55,6 +57,7 @@ button{
 }
 .contentones{
     color:#f9faf8;
+    filter:contrast(75%);
     flex-wrap: wrap;
     font-family: roboto;
     font-size: 16px;
@@ -68,4 +71,37 @@ button{
     min-width:100px;
     max-width:450px;
     height:auto;
+}
+.imagetwo{
+    display:flex;
+    width:150px;
+    height:150px;
+    max-width:200px;
+    border: 6px solid #3882f6;
+    border-radius: 15px;
+}
+.bodytext{
+    font-family: robotob;
+    font-size:32px;
+    display:flex;
+    justify-content: center;
+    margin: 60px;
+}
+.piconetext{
+    filter:contrast(15%);
+    margin-top:20px;
+}
+.container{
+    font-family: roboto;
+    display:flex;
+    gap: 120px;
+    justify-content: center;
+}
+.picone{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    max-width: 150px;
 }
